@@ -1,0 +1,9 @@
+@mixin highlight(){
+  font-weight: bold;
+  color: $theme-color;
+}
+
+@mixin padContainer($pad, $mar){
+  padding: $pad;
+  margin: $mar;
+}
