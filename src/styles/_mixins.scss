@@ -1,8 +1,9 @@
+//This mixin allows us to highlight a portion of text
 @mixin highlight(){
   font-weight: bold;
   color: $theme-color;
 }
-
+//This mixin allows us to change the padding and margin of an element based on the passed parameters
 @mixin padContainer($pad, $mar){
   padding: $pad;
   margin: $mar;
