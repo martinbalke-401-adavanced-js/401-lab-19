@@ -29,6 +29,7 @@ h1{
   }
 
   input{
+    @include padContainer(0rem,1rem);
     font-size: 1.5rem;
     border-radius: .5rem;
     height: 2rem;
